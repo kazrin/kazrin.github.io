@@ -1,0 +1,36 @@
+<h1>kazrin Restaurant Water</h1>
+I love it!
+
+<!-- Table -->
+<table border="1">
+    <tr>
+        <th>Mineral</th>
+        <th>Concentration(mg/L)</th>
+    </tr>
+    <tr>
+        <td>Na</td>
+        <td>10.0</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td>11.0</td>
+    </tr>
+    <tr>
+        <td>Mg</td>
+        <td>12.0</td>
+    </tr>
+    <tr>
+        <td>Ca</td>
+        <td>13.0</td>
+    </tr>
+</table>
+
+<br>
+
+<input type="button" value="Add preset" onClick="addPreset()" />
+
+<script type="text/javascript">
+    function addPreset() {
+        Android.addPreset("kazrin", 10, 11, 12, 13);
+    }
+</script>
