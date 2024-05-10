@@ -1,3 +1,32 @@
+<h1>EauRestauran Water</h1>
+This water is very mild and delicious!
+
+<!-- Table -->
+<table border="1">
+    <tr>
+        <th>Mineral</th>
+        <th>Concentration(mg/L)</th>
+    </tr>
+    <tr>
+        <td>Na</td>
+        <td>1.0</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td>2.0</td>
+    </tr>
+    <tr>
+        <td>Mg</td>
+        <td>3.0</td>
+    </tr>
+    <tr>
+        <td>Ca</td>
+        <td>4.0</td>
+    </tr>
+</table>
+
+<br>
+
 <input type="button" value="Add preset" onClick="addPreset()" />
 
 <script type="text/javascript">
@@ -5,31 +34,3 @@
         Android.addPreset("This is test", 1, 2, 3, 4);
     }
 </script>
-
-
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!', 'Hello kaz')" />
-
-<script type="text/javascript">
-    function showAndroidToast(toast, na) {
-        Android.showToast(toast, na);
-    }
-</script>
-
-
-<input type="button" value="Say hello" onClick="showAndroidToast2('Hello Android!', 1)" />
-
-<script type="text/javascript">
-    function showAndroidToast2(toast, na) {
-        Android.showToast(toast, na);
-    }
-</script>
-
-
-<input type="button" value="Say hello" onClick="showAndroidToast3('Hello Android!', 1.0)" />
-
-<script type="text/javascript">
-    function showAndroidToast3(toast, na) {
-        Android.showToast(toast, na);
-    }
-</script>
-
