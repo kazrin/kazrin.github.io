@@ -1,7 +1,16 @@
-<input type="button" value="Say hello" onClick="addPreset()" />
+<input type="button" value="Add preset" onClick="addPreset()" />
 
 <script type="text/javascript">
     function addPreset() {
         Android.addPreset();
+    }
+</script>
+
+
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
     }
 </script>
