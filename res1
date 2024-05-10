@@ -1,0 +1,36 @@
+<h1>EauRestaurant Water</h1>
+This water is very mild and delicious!
+
+<!-- Table -->
+<table border="1">
+    <tr>
+        <th>Mineral</th>
+        <th>Concentration(mg/L)</th>
+    </tr>
+    <tr>
+        <td>Na</td>
+        <td>1.0</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td>2.0</td>
+    </tr>
+    <tr>
+        <td>Mg</td>
+        <td>3.0</td>
+    </tr>
+    <tr>
+        <td>Ca</td>
+        <td>4.0</td>
+    </tr>
+</table>
+
+<br>
+
+<input type="button" value="Add preset" onClick="addPreset()" />
+
+<script type="text/javascript">
+    function addPreset() {
+        Android.addPreset("This is test", 1, 2, 3, 4);
+    }
+</script>
